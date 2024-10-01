@@ -8,7 +8,7 @@ env:
   LOCATION: westus2
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
   SUBSCRIPTION-ID: aa5e25fd-c838-4053-92b9-6eb5e0fe2316
-  WEBAPP-NAME: az400-webapp-NAME
+  WEBAPP-NAME: az400-webapp-deployCICD0110
 
 
 jobs:
