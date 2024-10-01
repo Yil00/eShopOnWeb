@@ -4,8 +4,8 @@ name: eShopOnWeb Build and Test
 on: [push, workflow_dispatch]
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
-  RESOURCE-GROUP: rg-eShopOnWeb-NAME
-  LOCATION: eastus
+  RESOURCE-GROUP: rg-eShopOnWeb-NAME2
+  LOCATION: westus2
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
   SUBSCRIPTION-ID: aa5e25fd-c838-4053-92b9-6eb5e0fe2316
   WEBAPP-NAME: az400-webapp-NAME
